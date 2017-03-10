@@ -149,12 +149,15 @@ footer {
   margin-bottom: 30px;
   margin-top: 0;
 }
-.portfolio-modal .modal-content img {
+.portfolio-modal .modal-content img {\
+  display: block;
   margin-bottom: 30px;
-  align-content: center;
-  height: 500px;
-  width: 500px ;
-  -webkit-align-content:center;
+  margin: auto;
+  height:  400px;
+  width: 400px;
+
+ 
+
 
 }
 .portfolio-modal .close-modal {
